@@ -1,0 +1,5 @@
+document.getElementById('a').innerHTML='Welcome to my js site.'
+document.getElementById('b').innerHTML='All of this was created with javascript.'
+document.getElementById('1').innerHTML='I am first'
+document.getElementById('2').innerHTML='I am second'
+document.getElementById('3').innerHTML='I am third'
