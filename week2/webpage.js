@@ -17,11 +17,33 @@ let word2=document.createTextNode('bing')
 link2.appendChild(word2)
 nav2.appendChild(link2).style.paddingRight = "50px";
 
+var h=document.createElement('h1')
+h.textContent= 'Welcome to my first website'
+document.body.appendChild(h)
+
+
+var newP = document.createElement('p')
+newP.textContent = 'This project involves me writing my own web page using only javascript.'
+document.body.appendChild(newP)
+
+
+var o=document.createElement('ol')
+o.setAttribute('id','ol')
+document.body.appendChild(o)
 
 
 
 
-
+var a=document.createElement('li')
+a.textContent = 'first webpage'
+var b=document.createElement('li')
+b.textContent = 'created with javascript'
+var c=document.createElement('li')
+c.textContent = 'fullstack web development'
+const i=document.getElementById('ol')
+i.appendChild(a)
+i.appendChild(b)
+i.appendChild(c)
 
 
 
