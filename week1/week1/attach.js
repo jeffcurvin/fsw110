@@ -1,1 +1,1 @@
-console.log("I'm attached")
+console.log(document)
