@@ -46,7 +46,8 @@ square.addEventListener('mousedown',function(){
             square.style.backgroundColor="yellow"
             break;
   }})
-square.addEventListener('',function(){
-    square.style.backgroundColor = "black"
-})
+
+  document.body.onload = function load(){
+    square.style.backgroundColor="black";
+}
   
