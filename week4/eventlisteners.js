@@ -24,7 +24,7 @@ square.addEventListener('mousedown',function(){
     square.style.backgroundColor="red"
   })
 
-  square.addEventListener('wheel',function(){
+  document.addEventListener('wheel',function(){
     square.style.backgroundColor="purple"
   })
 
